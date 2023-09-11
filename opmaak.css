@@ -1,6 +1,46 @@
-ul{
-    list-style-type:none ;
-    margin:0;
-    padding: 0;
 
+}
+/* Reset de standaardstijlen voor lijsten en links */
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Stijl voor het menu */
+nav {
+    background-color: #333; /* Achtergrondkleur voor het menu */
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Hoogte van het menu */
+}
+
+li {
+    margin: 0 10px; /* Ruimte tussen menu-items */
+}
+
+/* Stijl voor de bolletjes met rode achtergrond */
+li a {
+    display: inline-block;
+    width: 30px; /* Breedte van de bolletjes */
+    height: 30px; /* Hoogte van de bolletjes */
+    background-color: red; /* Achtergrondkleur van de bolletjes */
+    border-radius: 50%; /* Maakt de bolletjes rond */
+    text-align: center;
+    line-height: 30px; /* Zorgt voor verticale uitlijning van de tekst in het midden */
+    color: white; /* Tekstkleur van de linkjes in de bolletjes */
+    font-weight: bold;
+}
+
+/* Stijl voor de tekst in de bolletjes */
+li a:hover {
+    background-color: #ff0000; /* Verander de achtergrondkleur op hover */
 }
