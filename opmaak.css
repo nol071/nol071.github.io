@@ -1,5 +1,5 @@
-
 }
+
 /* Reset de standaardstijlen voor lijsten en links */
 ul, li {
     margin: 0;
@@ -27,20 +27,14 @@ li {
     margin: 0 10px; /* Ruimte tussen menu-items */
 }
 
-/* Stijl voor de bolletjes met rode achtergrond */
+/* Stijl voor de rode hokjes */
 li a {
     display: inline-block;
-    width: 30px; /* Breedte van de bolletjes */
-    height: 30px; /* Hoogte van de bolletjes */
-    background-color: red; /* Achtergrondkleur van de bolletjes */
-    border-radius: 50%; /* Maakt de bolletjes rond */
-    text-align: center;
-    line-height: 30px; /* Zorgt voor verticale uitlijning van de tekst in het midden */
-    color: white; /* Tekstkleur van de linkjes in de bolletjes */
+    padding: 10px 20px; /* Binnenste vulling van het hokje */
+    background-color: red; /* Achtergrondkleur van het hokje */
+    color: black; /* Tekstkleur van het hokje */
     font-weight: bold;
+    border-radius: 5px; /* Afronding van de hoeken */
 }
 
-/* Stijl voor de tekst in de bolletjes */
-li a:hover {
-    background-color: #ff0000; /* Verander de achtergrondkleur op hover */
-}
+/* Stijl voor
