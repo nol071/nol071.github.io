@@ -6,6 +6,27 @@ ul{
     color: black;
     background-color:rgb(153, 255, 0);
 }
+/* Stijl voor de menubalk */
+.menubalk {
+    background-color: #f0f0f0; /* Lichtgrijze achtergrondkleur */
+    overflow: hidden;
+}
+
+/* Stijl voor de menu-items */
+.menubalk a {
+    float: left;
+    display: block;
+    color: #333; /* Tekstkleur */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Stijl voor de menu-items bij hover (wanneer de muis erover beweegt) */
+.menubalk a:hover {
+    background-color: #ddd; /* Achtergrondkleur bij hover */
+}
+
 
 
 
