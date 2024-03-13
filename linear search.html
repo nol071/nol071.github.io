@@ -1,0 +1,38 @@
+<head>
+    <body>
+        <script> 
+    var zoekGetal, i;
+
+    // Hier heb ik een array gemaakt zodat die hem straks kan gebruiken
+    var getallenRij = new Array(10);
+
+    for (i = 0; i <= 9; i++) {
+
+        // Hier maakt die een rij van 10 random getallen
+        getallenRij[i] = Math.floor(Math.random() * 100);
+    }
+    window.alert("Welk getal wil je zoeken: ");
+
+    // Hier vraag ik welk getal de gebruiker wil vinden en laat hem het invoeren
+    zoekGetal = Number(window.prompt('Enter a value for zoekGetal'));
+    i = 0;
+
+    // Hier laat ik het getal een paar keer door de for loop
+    while (getallenRij[i] != zoekGetal && i < 9) {
+        i = i + 1;
+    }
+
+    // Hier heb ik keuze neer gezet voor het progamma zo kan die kijken bij welke keuze hetb getal past wat de gebruiker heeft ingevuld
+    if (i == 9) {
+        if (zoekGetal == getallenRij[9]) {
+            window.alert(zoekGetal.ToString() + " staat op plek " + i);
+        } else {
+            window.alert("Getal niet gevonden.");
+        }
+    } else {
+        window.alert(zoekGetal.ToString() + " staat op plek " + i);
+    }
+
+        </script>
+    </body>
+</head>
